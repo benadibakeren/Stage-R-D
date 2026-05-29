@@ -1,0 +1,44 @@
+import torch
+import torch.nn as nn
+from torch.utils.data import DataLoader, Dataset
+
+class test_nn(nn.Module):
+    def __init__(self):
+        super().__init__()
+        self.layer1 = nn.Linear(2,4)
+        self.layer2 = nn.Linear(4,1)
+
+    
+    def forward(self,x):
+        x = self.layer1(x)
+        x = torch.relu(x)
+        x = self.layer2(x)
+        return x
+
+class Mondataset (Dataset):
+    def __init__(self,x,y):
+        self.x = x
+        self.y = y
+
+    def __len__(self):
+        return len(self.x)
+    
+    def __getitem__(self,idx):
+        return self.x[idx], self.y[idx]
+
+
+model = test_nn()
+criterion = nn.BCEWithLogitsLoss()
+optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
+
+data = Mondataset(torch.randn(50,2), torch.randint(0,2,(50,)).float())  # 50 échantillons, 2 caractéristiques chacun, et des étiquettes binaires
+dataloader = DataLoader(data, batch_size=10, shuffle=True)
+
+for epoch in range(100):
+    for x_batch, y_batch in dataloader:
+        optimizer.zero_grad()
+        pred = model(x_batch)
+        loss = criterion(pred, y_batch.unsqueeze(1))
+        loss.backward()
+        optimizer.step()
+    print(f"Epoch {epoch}, Loss: {loss.item():.4f}")
