@@ -7,9 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/17lAj6ewlzwyHsC7sWKrUp-u-JOY1PesV
 """
 
-!pip install transformers torch sacremoses -q
-
-!pip install pandas==2.2.2 -q
 
 import pandas as pd
 

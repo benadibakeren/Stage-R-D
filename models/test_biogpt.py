@@ -7,8 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1AVUM9bkVvl2YTe3PbIWRtT2hzO6C6V6W
 """
 
-!pip install transformers torch sacremoses -q
-
 from transformers import BioGptTokenizer, BioGptForCausalLM
 import torch
 
