@@ -1,0 +1,969 @@
+ID,Class,label,text
+v10p,ADHD,1,"Patient ID: v10p
+Frontal Theta/Beta Ratio (TBR): 3.109
+Frontal Alpha Asymmetry (FAA): 499.060
+Fz Theta Power: 4516.80 uV2/Hz
+Fz Beta Power: 1455.15 uV2/Hz
+Fz Alpha Power: 2097.90 uV2/Hz
+F3 Theta Power: 2882.54 uV2/Hz
+F4 Theta Power: 3237.70 uV2/Hz"
+v12p,ADHD,1,"Patient ID: v12p
+Frontal Theta/Beta Ratio (TBR): 5.977
+Frontal Alpha Asymmetry (FAA): -56.329
+Fz Theta Power: 5524.12 uV2/Hz
+Fz Beta Power: 1013.31 uV2/Hz
+Fz Alpha Power: 1815.07 uV2/Hz
+F3 Theta Power: 4038.75 uV2/Hz
+F4 Theta Power: 4554.91 uV2/Hz"
+v14p,ADHD,1,"Patient ID: v14p
+Frontal Theta/Beta Ratio (TBR): 5.196
+Frontal Alpha Asymmetry (FAA): 303.468
+Fz Theta Power: 7693.94 uV2/Hz
+Fz Beta Power: 3653.99 uV2/Hz
+Fz Alpha Power: 3254.19 uV2/Hz
+F3 Theta Power: 6509.01 uV2/Hz
+F4 Theta Power: 11498.36 uV2/Hz"
+v15p,ADHD,1,"Patient ID: v15p
+Frontal Theta/Beta Ratio (TBR): 4.681
+Frontal Alpha Asymmetry (FAA): 510.139
+Fz Theta Power: 6443.29 uV2/Hz
+Fz Beta Power: 1309.45 uV2/Hz
+Fz Alpha Power: 2739.30 uV2/Hz
+F3 Theta Power: 5593.62 uV2/Hz
+F4 Theta Power: 5665.19 uV2/Hz"
+v173,ADHD,1,"Patient ID: v173
+Frontal Theta/Beta Ratio (TBR): 0.855
+Frontal Alpha Asymmetry (FAA): 88.666
+Fz Theta Power: 3401.83 uV2/Hz
+Fz Beta Power: 2878.85 uV2/Hz
+Fz Alpha Power: 2023.16 uV2/Hz
+F3 Theta Power: 3406.13 uV2/Hz
+F4 Theta Power: 3724.24 uV2/Hz"
+v18p,ADHD,1,"Patient ID: v18p
+Frontal Theta/Beta Ratio (TBR): 5.508
+Frontal Alpha Asymmetry (FAA): 514.920
+Fz Theta Power: 10707.05 uV2/Hz
+Fz Beta Power: 2696.94 uV2/Hz
+Fz Alpha Power: 2744.28 uV2/Hz
+F3 Theta Power: 7991.17 uV2/Hz
+F4 Theta Power: 9979.38 uV2/Hz"
+v19p,ADHD,1,"Patient ID: v19p
+Frontal Theta/Beta Ratio (TBR): 3.500
+Frontal Alpha Asymmetry (FAA): 448.232
+Fz Theta Power: 7645.79 uV2/Hz
+Fz Beta Power: 1799.55 uV2/Hz
+Fz Alpha Power: 2855.19 uV2/Hz
+F3 Theta Power: 3958.37 uV2/Hz
+F4 Theta Power: 5055.58 uV2/Hz"
+v1p,ADHD,1,"Patient ID: v1p
+Frontal Theta/Beta Ratio (TBR): 1.246
+Frontal Alpha Asymmetry (FAA): 1702.464
+Fz Theta Power: 28404.50 uV2/Hz
+Fz Beta Power: 32255.24 uV2/Hz
+Fz Alpha Power: 14246.40 uV2/Hz
+F3 Theta Power: 7656.49 uV2/Hz
+F4 Theta Power: 8391.51 uV2/Hz"
+v20p,ADHD,1,"Patient ID: v20p
+Frontal Theta/Beta Ratio (TBR): 3.194
+Frontal Alpha Asymmetry (FAA): 546.659
+Fz Theta Power: 5782.97 uV2/Hz
+Fz Beta Power: 1921.65 uV2/Hz
+Fz Alpha Power: 1956.02 uV2/Hz
+F3 Theta Power: 5519.92 uV2/Hz
+F4 Theta Power: 5905.03 uV2/Hz"
+v21p,ADHD,1,"Patient ID: v21p
+Frontal Theta/Beta Ratio (TBR): 4.920
+Frontal Alpha Asymmetry (FAA): 612.342
+Fz Theta Power: 6807.02 uV2/Hz
+Fz Beta Power: 1203.18 uV2/Hz
+Fz Alpha Power: 2828.06 uV2/Hz
+F3 Theta Power: 5868.79 uV2/Hz
+F4 Theta Power: 6436.39 uV2/Hz"
+v22p,ADHD,1,"Patient ID: v22p
+Frontal Theta/Beta Ratio (TBR): 5.517
+Frontal Alpha Asymmetry (FAA): 1100.372
+Fz Theta Power: 11063.44 uV2/Hz
+Fz Beta Power: 1960.04 uV2/Hz
+Fz Alpha Power: 5787.04 uV2/Hz
+F3 Theta Power: 8596.15 uV2/Hz
+F4 Theta Power: 9866.42 uV2/Hz"
+v24p,ADHD,1,"Patient ID: v24p
+Frontal Theta/Beta Ratio (TBR): 2.293
+Frontal Alpha Asymmetry (FAA): 530.381
+Fz Theta Power: 4580.80 uV2/Hz
+Fz Beta Power: 1847.96 uV2/Hz
+Fz Alpha Power: 1656.40 uV2/Hz
+F3 Theta Power: 3160.49 uV2/Hz
+F4 Theta Power: 5011.94 uV2/Hz"
+v25p,ADHD,1,"Patient ID: v25p
+Frontal Theta/Beta Ratio (TBR): 5.759
+Frontal Alpha Asymmetry (FAA): -1184.481
+Fz Theta Power: 8799.12 uV2/Hz
+Fz Beta Power: 1562.66 uV2/Hz
+Fz Alpha Power: 2577.98 uV2/Hz
+F3 Theta Power: 8536.41 uV2/Hz
+F4 Theta Power: 2113.19 uV2/Hz"
+v27p,ADHD,1,"Patient ID: v27p
+Frontal Theta/Beta Ratio (TBR): 4.218
+Frontal Alpha Asymmetry (FAA): 167.636
+Fz Theta Power: 3100.24 uV2/Hz
+Fz Beta Power: 933.47 uV2/Hz
+Fz Alpha Power: 1746.27 uV2/Hz
+F3 Theta Power: 2091.75 uV2/Hz
+F4 Theta Power: 3035.96 uV2/Hz"
+v28p,ADHD,1,"Patient ID: v28p
+Frontal Theta/Beta Ratio (TBR): 1.397
+Frontal Alpha Asymmetry (FAA): 443.214
+Fz Theta Power: 4663.26 uV2/Hz
+Fz Beta Power: 2084.40 uV2/Hz
+Fz Alpha Power: 2396.16 uV2/Hz
+F3 Theta Power: 3823.84 uV2/Hz
+F4 Theta Power: 4561.16 uV2/Hz"
+v29p,ADHD,1,"Patient ID: v29p
+Frontal Theta/Beta Ratio (TBR): 4.570
+Frontal Alpha Asymmetry (FAA): -460.678
+Fz Theta Power: 8302.11 uV2/Hz
+Fz Beta Power: 2178.67 uV2/Hz
+Fz Alpha Power: 2297.91 uV2/Hz
+F3 Theta Power: 7683.06 uV2/Hz
+F4 Theta Power: 3841.03 uV2/Hz"
+v30p,ADHD,1,"Patient ID: v30p
+Frontal Theta/Beta Ratio (TBR): 3.437
+Frontal Alpha Asymmetry (FAA): -61.514
+Fz Theta Power: 9442.66 uV2/Hz
+Fz Beta Power: 2131.46 uV2/Hz
+Fz Alpha Power: 2450.32 uV2/Hz
+F3 Theta Power: 10196.96 uV2/Hz
+F4 Theta Power: 8988.81 uV2/Hz"
+v31p,ADHD,1,"Patient ID: v31p
+Frontal Theta/Beta Ratio (TBR): 4.179
+Frontal Alpha Asymmetry (FAA): -115.185
+Fz Theta Power: 10165.29 uV2/Hz
+Fz Beta Power: 1689.17 uV2/Hz
+Fz Alpha Power: 3145.20 uV2/Hz
+F3 Theta Power: 8126.21 uV2/Hz
+F4 Theta Power: 7307.94 uV2/Hz"
+v32p,ADHD,1,"Patient ID: v32p
+Frontal Theta/Beta Ratio (TBR): 1.979
+Frontal Alpha Asymmetry (FAA): 0.427
+Fz Theta Power: 3886.70 uV2/Hz
+Fz Beta Power: 1855.93 uV2/Hz
+Fz Alpha Power: 3083.81 uV2/Hz
+F3 Theta Power: 2791.05 uV2/Hz
+F4 Theta Power: 3396.55 uV2/Hz"
+v33p,ADHD,1,"Patient ID: v33p
+Frontal Theta/Beta Ratio (TBR): 2.023
+Frontal Alpha Asymmetry (FAA): 383.113
+Fz Theta Power: 6943.47 uV2/Hz
+Fz Beta Power: 2567.78 uV2/Hz
+Fz Alpha Power: 4131.25 uV2/Hz
+F3 Theta Power: 5330.52 uV2/Hz
+F4 Theta Power: 6404.31 uV2/Hz"
+v34p,ADHD,1,"Patient ID: v34p
+Frontal Theta/Beta Ratio (TBR): 5.111
+Frontal Alpha Asymmetry (FAA): -237.526
+Fz Theta Power: 10029.72 uV2/Hz
+Fz Beta Power: 1344.36 uV2/Hz
+Fz Alpha Power: 3373.59 uV2/Hz
+F3 Theta Power: 8387.56 uV2/Hz
+F4 Theta Power: 7400.75 uV2/Hz"
+v35p,ADHD,1,"Patient ID: v35p
+Frontal Theta/Beta Ratio (TBR): 3.572
+Frontal Alpha Asymmetry (FAA): -303.817
+Fz Theta Power: 9067.35 uV2/Hz
+Fz Beta Power: 2426.52 uV2/Hz
+Fz Alpha Power: 2966.97 uV2/Hz
+F3 Theta Power: 7398.40 uV2/Hz
+F4 Theta Power: 6780.69 uV2/Hz"
+v36p,ADHD,1,"Patient ID: v36p
+Frontal Theta/Beta Ratio (TBR): 2.214
+Frontal Alpha Asymmetry (FAA): 798.445
+Fz Theta Power: 4824.40 uV2/Hz
+Fz Beta Power: 1572.96 uV2/Hz
+Fz Alpha Power: 3043.01 uV2/Hz
+F3 Theta Power: 3165.46 uV2/Hz
+F4 Theta Power: 4753.48 uV2/Hz"
+v37p,ADHD,1,"Patient ID: v37p
+Frontal Theta/Beta Ratio (TBR): 2.170
+Frontal Alpha Asymmetry (FAA): -479.646
+Fz Theta Power: 4094.91 uV2/Hz
+Fz Beta Power: 2082.01 uV2/Hz
+Fz Alpha Power: 3018.92 uV2/Hz
+F3 Theta Power: 3088.92 uV2/Hz
+F4 Theta Power: 3968.62 uV2/Hz"
+v38p,ADHD,1,"Patient ID: v38p
+Frontal Theta/Beta Ratio (TBR): 5.084
+Frontal Alpha Asymmetry (FAA): 1222.402
+Fz Theta Power: 6831.87 uV2/Hz
+Fz Beta Power: 1811.61 uV2/Hz
+Fz Alpha Power: 2336.76 uV2/Hz
+F3 Theta Power: 2703.71 uV2/Hz
+F4 Theta Power: 8563.34 uV2/Hz"
+v39p,ADHD,1,"Patient ID: v39p
+Frontal Theta/Beta Ratio (TBR): 2.736
+Frontal Alpha Asymmetry (FAA): 516.552
+Fz Theta Power: 3746.80 uV2/Hz
+Fz Beta Power: 1155.47 uV2/Hz
+Fz Alpha Power: 1864.79 uV2/Hz
+F3 Theta Power: 3025.94 uV2/Hz
+F4 Theta Power: 5220.98 uV2/Hz"
+v3p,ADHD,1,"Patient ID: v3p
+Frontal Theta/Beta Ratio (TBR): 6.443
+Frontal Alpha Asymmetry (FAA): 1507.384
+Fz Theta Power: 2656.06 uV2/Hz
+Fz Beta Power: 851.86 uV2/Hz
+Fz Alpha Power: 2155.97 uV2/Hz
+F3 Theta Power: 2435.04 uV2/Hz
+F4 Theta Power: 2022.67 uV2/Hz"
+v40p,ADHD,1,"Patient ID: v40p
+Frontal Theta/Beta Ratio (TBR): 1.956
+Frontal Alpha Asymmetry (FAA): -1374.743
+Fz Theta Power: 6142.27 uV2/Hz
+Fz Beta Power: 2426.02 uV2/Hz
+Fz Alpha Power: 3326.96 uV2/Hz
+F3 Theta Power: 5480.03 uV2/Hz
+F4 Theta Power: 2923.13 uV2/Hz"
+v6p,ADHD,1,"Patient ID: v6p
+Frontal Theta/Beta Ratio (TBR): 2.222
+Frontal Alpha Asymmetry (FAA): 563.274
+Fz Theta Power: 3913.57 uV2/Hz
+Fz Beta Power: 2384.92 uV2/Hz
+Fz Alpha Power: 2749.39 uV2/Hz
+F3 Theta Power: 3416.53 uV2/Hz
+F4 Theta Power: 4422.06 uV2/Hz"
+v8p,ADHD,1,"Patient ID: v8p
+Frontal Theta/Beta Ratio (TBR): 2.479
+Frontal Alpha Asymmetry (FAA): -204.022
+Fz Theta Power: 7315.97 uV2/Hz
+Fz Beta Power: 2276.43 uV2/Hz
+Fz Alpha Power: 2374.93 uV2/Hz
+F3 Theta Power: 6000.51 uV2/Hz
+F4 Theta Power: 6012.87 uV2/Hz"
+v177,ADHD,1,"Patient ID: v177
+Frontal Theta/Beta Ratio (TBR): 2.015
+Frontal Alpha Asymmetry (FAA): 716.315
+Fz Theta Power: 8435.40 uV2/Hz
+Fz Beta Power: 2246.38 uV2/Hz
+Fz Alpha Power: 4220.63 uV2/Hz
+F3 Theta Power: 5099.80 uV2/Hz
+F4 Theta Power: 5770.53 uV2/Hz"
+v179,ADHD,1,"Patient ID: v179
+Frontal Theta/Beta Ratio (TBR): 3.069
+Frontal Alpha Asymmetry (FAA): -746.334
+Fz Theta Power: 6645.84 uV2/Hz
+Fz Beta Power: 1335.12 uV2/Hz
+Fz Alpha Power: 2439.22 uV2/Hz
+F3 Theta Power: 6712.55 uV2/Hz
+F4 Theta Power: 4126.94 uV2/Hz"
+v181,ADHD,1,"Patient ID: v181
+Frontal Theta/Beta Ratio (TBR): 1.852
+Frontal Alpha Asymmetry (FAA): 124.775
+Fz Theta Power: 5247.59 uV2/Hz
+Fz Beta Power: 1494.39 uV2/Hz
+Fz Alpha Power: 1775.16 uV2/Hz
+F3 Theta Power: 3967.86 uV2/Hz
+F4 Theta Power: 4685.80 uV2/Hz"
+v183,ADHD,1,"Patient ID: v183
+Frontal Theta/Beta Ratio (TBR): 1.612
+Frontal Alpha Asymmetry (FAA): -510.338
+Fz Theta Power: 5216.98 uV2/Hz
+Fz Beta Power: 1942.01 uV2/Hz
+Fz Alpha Power: 1510.52 uV2/Hz
+F3 Theta Power: 4678.30 uV2/Hz
+F4 Theta Power: 2124.26 uV2/Hz"
+v190,ADHD,1,"Patient ID: v190
+Frontal Theta/Beta Ratio (TBR): 3.195
+Frontal Alpha Asymmetry (FAA): 187.064
+Fz Theta Power: 2603.60 uV2/Hz
+Fz Beta Power: 814.31 uV2/Hz
+Fz Alpha Power: 1245.57 uV2/Hz
+F3 Theta Power: 2928.92 uV2/Hz
+F4 Theta Power: 3347.64 uV2/Hz"
+v196,ADHD,1,"Patient ID: v196
+Frontal Theta/Beta Ratio (TBR): 3.041
+Frontal Alpha Asymmetry (FAA): -57.373
+Fz Theta Power: 8480.72 uV2/Hz
+Fz Beta Power: 1481.95 uV2/Hz
+Fz Alpha Power: 1861.80 uV2/Hz
+F3 Theta Power: 5260.54 uV2/Hz
+F4 Theta Power: 5025.61 uV2/Hz"
+v198,ADHD,1,"Patient ID: v198
+Frontal Theta/Beta Ratio (TBR): 1.982
+Frontal Alpha Asymmetry (FAA): -2.647
+Fz Theta Power: 3706.08 uV2/Hz
+Fz Beta Power: 1343.64 uV2/Hz
+Fz Alpha Power: 1678.13 uV2/Hz
+F3 Theta Power: 3219.78 uV2/Hz
+F4 Theta Power: 3232.36 uV2/Hz"
+v200,ADHD,1,"Patient ID: v200
+Frontal Theta/Beta Ratio (TBR): 2.965
+Frontal Alpha Asymmetry (FAA): -624.257
+Fz Theta Power: 7108.10 uV2/Hz
+Fz Beta Power: 2300.69 uV2/Hz
+Fz Alpha Power: 2947.87 uV2/Hz
+F3 Theta Power: 8661.00 uV2/Hz
+F4 Theta Power: 4695.63 uV2/Hz"
+v204,ADHD,1,"Patient ID: v204
+Frontal Theta/Beta Ratio (TBR): 2.928
+Frontal Alpha Asymmetry (FAA): -831.336
+Fz Theta Power: 5281.00 uV2/Hz
+Fz Beta Power: 1404.63 uV2/Hz
+Fz Alpha Power: 3403.09 uV2/Hz
+F3 Theta Power: 4336.94 uV2/Hz
+F4 Theta Power: 2759.97 uV2/Hz"
+v206,ADHD,1,"Patient ID: v206
+Frontal Theta/Beta Ratio (TBR): 2.196
+Frontal Alpha Asymmetry (FAA): -78.943
+Fz Theta Power: 3585.38 uV2/Hz
+Fz Beta Power: 1220.84 uV2/Hz
+Fz Alpha Power: 2444.31 uV2/Hz
+F3 Theta Power: 2651.85 uV2/Hz
+F4 Theta Power: 2339.13 uV2/Hz"
+v209,ADHD,1,"Patient ID: v209
+Frontal Theta/Beta Ratio (TBR): 2.770
+Frontal Alpha Asymmetry (FAA): 412.620
+Fz Theta Power: 6376.99 uV2/Hz
+Fz Beta Power: 1934.08 uV2/Hz
+Fz Alpha Power: 2030.53 uV2/Hz
+F3 Theta Power: 5496.36 uV2/Hz
+F4 Theta Power: 7271.70 uV2/Hz"
+v213,ADHD,1,"Patient ID: v213
+Frontal Theta/Beta Ratio (TBR): 2.295
+Frontal Alpha Asymmetry (FAA): -851.081
+Fz Theta Power: 6573.50 uV2/Hz
+Fz Beta Power: 2496.14 uV2/Hz
+Fz Alpha Power: 2753.36 uV2/Hz
+F3 Theta Power: 5679.67 uV2/Hz
+F4 Theta Power: 3880.87 uV2/Hz"
+v215,ADHD,1,"Patient ID: v215
+Frontal Theta/Beta Ratio (TBR): 1.999
+Frontal Alpha Asymmetry (FAA): 168.120
+Fz Theta Power: 3891.41 uV2/Hz
+Fz Beta Power: 1506.54 uV2/Hz
+Fz Alpha Power: 1480.20 uV2/Hz
+F3 Theta Power: 3434.02 uV2/Hz
+F4 Theta Power: 3620.60 uV2/Hz"
+v219,ADHD,1,"Patient ID: v219
+Frontal Theta/Beta Ratio (TBR): 0.905
+Frontal Alpha Asymmetry (FAA): -141.852
+Fz Theta Power: 9696.90 uV2/Hz
+Fz Beta Power: 8594.66 uV2/Hz
+Fz Alpha Power: 4280.88 uV2/Hz
+F3 Theta Power: 6685.32 uV2/Hz
+F4 Theta Power: 5669.01 uV2/Hz"
+v227,ADHD,1,"Patient ID: v227
+Frontal Theta/Beta Ratio (TBR): 2.527
+Frontal Alpha Asymmetry (FAA): 849.339
+Fz Theta Power: 3996.91 uV2/Hz
+Fz Beta Power: 946.02 uV2/Hz
+Fz Alpha Power: 1251.23 uV2/Hz
+F3 Theta Power: 1554.55 uV2/Hz
+F4 Theta Power: 3549.16 uV2/Hz"
+v231,ADHD,1,"Patient ID: v231
+Frontal Theta/Beta Ratio (TBR): 1.722
+Frontal Alpha Asymmetry (FAA): -2542.670
+Fz Theta Power: 6941.36 uV2/Hz
+Fz Beta Power: 3665.30 uV2/Hz
+Fz Alpha Power: 3581.70 uV2/Hz
+F3 Theta Power: 6969.51 uV2/Hz
+F4 Theta Power: 1977.42 uV2/Hz"
+v234,ADHD,1,"Patient ID: v234
+Frontal Theta/Beta Ratio (TBR): 3.296
+Frontal Alpha Asymmetry (FAA): 370.033
+Fz Theta Power: 3299.56 uV2/Hz
+Fz Beta Power: 817.35 uV2/Hz
+Fz Alpha Power: 1315.18 uV2/Hz
+F3 Theta Power: 2697.43 uV2/Hz
+F4 Theta Power: 3259.01 uV2/Hz"
+v236,ADHD,1,"Patient ID: v236
+Frontal Theta/Beta Ratio (TBR): 5.593
+Frontal Alpha Asymmetry (FAA): 816.020
+Fz Theta Power: 5389.89 uV2/Hz
+Fz Beta Power: 1314.43 uV2/Hz
+Fz Alpha Power: 1377.92 uV2/Hz
+F3 Theta Power: 5266.56 uV2/Hz
+F4 Theta Power: 8001.63 uV2/Hz"
+v238,ADHD,1,"Patient ID: v238
+Frontal Theta/Beta Ratio (TBR): 2.113
+Frontal Alpha Asymmetry (FAA): 435.474
+Fz Theta Power: 4449.01 uV2/Hz
+Fz Beta Power: 1633.97 uV2/Hz
+Fz Alpha Power: 2287.45 uV2/Hz
+F3 Theta Power: 3331.18 uV2/Hz
+F4 Theta Power: 4140.13 uV2/Hz"
+v244,ADHD,1,"Patient ID: v244
+Frontal Theta/Beta Ratio (TBR): 5.893
+Frontal Alpha Asymmetry (FAA): -671.885
+Fz Theta Power: 10329.13 uV2/Hz
+Fz Beta Power: 1377.32 uV2/Hz
+Fz Alpha Power: 2298.16 uV2/Hz
+F3 Theta Power: 8751.31 uV2/Hz
+F4 Theta Power: 5725.12 uV2/Hz"
+v246,ADHD,1,"Patient ID: v246
+Frontal Theta/Beta Ratio (TBR): 1.329
+Frontal Alpha Asymmetry (FAA): 554.203
+Fz Theta Power: 8046.83 uV2/Hz
+Fz Beta Power: 2139.26 uV2/Hz
+Fz Alpha Power: 2497.04 uV2/Hz
+F3 Theta Power: 6133.08 uV2/Hz
+F4 Theta Power: 6454.23 uV2/Hz"
+v250,ADHD,1,"Patient ID: v250
+Frontal Theta/Beta Ratio (TBR): 3.153
+Frontal Alpha Asymmetry (FAA): -0.723
+Fz Theta Power: 4515.34 uV2/Hz
+Fz Beta Power: 1156.04 uV2/Hz
+Fz Alpha Power: 1419.45 uV2/Hz
+F3 Theta Power: 2758.21 uV2/Hz
+F4 Theta Power: 2523.81 uV2/Hz"
+v254,ADHD,1,"Patient ID: v254
+Frontal Theta/Beta Ratio (TBR): 4.079
+Frontal Alpha Asymmetry (FAA): -9.851
+Fz Theta Power: 3129.98 uV2/Hz
+Fz Beta Power: 834.47 uV2/Hz
+Fz Alpha Power: 1347.29 uV2/Hz
+F3 Theta Power: 2504.94 uV2/Hz
+F4 Theta Power: 2573.27 uV2/Hz"
+v263,ADHD,1,"Patient ID: v263
+Frontal Theta/Beta Ratio (TBR): 4.082
+Frontal Alpha Asymmetry (FAA): 112.376
+Fz Theta Power: 9925.17 uV2/Hz
+Fz Beta Power: 2693.20 uV2/Hz
+Fz Alpha Power: 3498.73 uV2/Hz
+F3 Theta Power: 10343.87 uV2/Hz
+F4 Theta Power: 11511.95 uV2/Hz"
+v265,ADHD,1,"Patient ID: v265
+Frontal Theta/Beta Ratio (TBR): 4.207
+Frontal Alpha Asymmetry (FAA): -1290.730
+Fz Theta Power: 13948.86 uV2/Hz
+Fz Beta Power: 2778.47 uV2/Hz
+Fz Alpha Power: 3624.57 uV2/Hz
+F3 Theta Power: 11519.93 uV2/Hz
+F4 Theta Power: 7997.35 uV2/Hz"
+v270,ADHD,1,"Patient ID: v270
+Frontal Theta/Beta Ratio (TBR): 2.644
+Frontal Alpha Asymmetry (FAA): -20.240
+Fz Theta Power: 5025.99 uV2/Hz
+Fz Beta Power: 1675.27 uV2/Hz
+Fz Alpha Power: 1816.30 uV2/Hz
+F3 Theta Power: 4209.18 uV2/Hz
+F4 Theta Power: 4478.90 uV2/Hz"
+v274,ADHD,1,"Patient ID: v274
+Frontal Theta/Beta Ratio (TBR): 1.961
+Frontal Alpha Asymmetry (FAA): -135.349
+Fz Theta Power: 5113.39 uV2/Hz
+Fz Beta Power: 1184.20 uV2/Hz
+Fz Alpha Power: 1115.62 uV2/Hz
+F3 Theta Power: 4993.54 uV2/Hz
+F4 Theta Power: 4145.43 uV2/Hz"
+v279,ADHD,1,"Patient ID: v279
+Frontal Theta/Beta Ratio (TBR): 0.939
+Frontal Alpha Asymmetry (FAA): 219.890
+Fz Theta Power: 4345.49 uV2/Hz
+Fz Beta Power: 2437.92 uV2/Hz
+Fz Alpha Power: 1986.25 uV2/Hz
+F3 Theta Power: 4050.94 uV2/Hz
+F4 Theta Power: 3539.03 uV2/Hz"
+v284,ADHD,1,"Patient ID: v284
+Frontal Theta/Beta Ratio (TBR): 2.645
+Frontal Alpha Asymmetry (FAA): 0.765
+Fz Theta Power: 4067.09 uV2/Hz
+Fz Beta Power: 1069.75 uV2/Hz
+Fz Alpha Power: 1317.68 uV2/Hz
+F3 Theta Power: 3311.58 uV2/Hz
+F4 Theta Power: 2799.30 uV2/Hz"
+v286,ADHD,1,"Patient ID: v286
+Frontal Theta/Beta Ratio (TBR): 1.451
+Frontal Alpha Asymmetry (FAA): -25.985
+Fz Theta Power: 4170.85 uV2/Hz
+Fz Beta Power: 2316.42 uV2/Hz
+Fz Alpha Power: 1181.79 uV2/Hz
+F3 Theta Power: 3318.85 uV2/Hz
+F4 Theta Power: 2512.04 uV2/Hz"
+v288,ADHD,1,"Patient ID: v288
+Frontal Theta/Beta Ratio (TBR): 2.787
+Frontal Alpha Asymmetry (FAA): -33.599
+Fz Theta Power: 5304.89 uV2/Hz
+Fz Beta Power: 1488.67 uV2/Hz
+Fz Alpha Power: 1854.44 uV2/Hz
+F3 Theta Power: 4197.49 uV2/Hz
+F4 Theta Power: 5097.31 uV2/Hz"
+v107,Control,0,"Patient ID: v107
+Frontal Theta/Beta Ratio (TBR): 5.867
+Frontal Alpha Asymmetry (FAA): -363.192
+Fz Theta Power: 13185.69 uV2/Hz
+Fz Beta Power: 2001.37 uV2/Hz
+Fz Alpha Power: 2457.33 uV2/Hz
+F3 Theta Power: 12266.88 uV2/Hz
+F4 Theta Power: 11280.09 uV2/Hz"
+v108,Control,0,"Patient ID: v108
+Frontal Theta/Beta Ratio (TBR): 3.485
+Frontal Alpha Asymmetry (FAA): -927.332
+Fz Theta Power: 2895.06 uV2/Hz
+Fz Beta Power: 678.34 uV2/Hz
+Fz Alpha Power: 1361.19 uV2/Hz
+F3 Theta Power: 1878.79 uV2/Hz
+F4 Theta Power: 2119.54 uV2/Hz"
+v109,Control,0,"Patient ID: v109
+Frontal Theta/Beta Ratio (TBR): 2.304
+Frontal Alpha Asymmetry (FAA): 1577.789
+Fz Theta Power: 14832.75 uV2/Hz
+Fz Beta Power: 5560.89 uV2/Hz
+Fz Alpha Power: 4156.13 uV2/Hz
+F3 Theta Power: 14773.50 uV2/Hz
+F4 Theta Power: 6796.41 uV2/Hz"
+v110,Control,0,"Patient ID: v110
+Frontal Theta/Beta Ratio (TBR): 4.789
+Frontal Alpha Asymmetry (FAA): -16.125
+Fz Theta Power: 4852.31 uV2/Hz
+Fz Beta Power: 647.72 uV2/Hz
+Fz Alpha Power: 840.04 uV2/Hz
+F3 Theta Power: 3941.54 uV2/Hz
+F4 Theta Power: 2451.47 uV2/Hz"
+v111,Control,0,"Patient ID: v111
+Frontal Theta/Beta Ratio (TBR): 2.666
+Frontal Alpha Asymmetry (FAA): 293.512
+Fz Theta Power: 5978.32 uV2/Hz
+Fz Beta Power: 2161.45 uV2/Hz
+Fz Alpha Power: 2602.14 uV2/Hz
+F3 Theta Power: 4390.34 uV2/Hz
+F4 Theta Power: 4230.33 uV2/Hz"
+v112,Control,0,"Patient ID: v112
+Frontal Theta/Beta Ratio (TBR): 2.685
+Frontal Alpha Asymmetry (FAA): -1543.457
+Fz Theta Power: 4467.67 uV2/Hz
+Fz Beta Power: 1481.09 uV2/Hz
+Fz Alpha Power: 2979.88 uV2/Hz
+F3 Theta Power: 2813.36 uV2/Hz
+F4 Theta Power: 3199.88 uV2/Hz"
+v113,Control,0,"Patient ID: v113
+Frontal Theta/Beta Ratio (TBR): 1.477
+Frontal Alpha Asymmetry (FAA): -29.707
+Fz Theta Power: 2669.26 uV2/Hz
+Fz Beta Power: 1278.56 uV2/Hz
+Fz Alpha Power: 958.83 uV2/Hz
+F3 Theta Power: 1679.54 uV2/Hz
+F4 Theta Power: 1533.47 uV2/Hz"
+v114,Control,0,"Patient ID: v114
+Frontal Theta/Beta Ratio (TBR): 4.265
+Frontal Alpha Asymmetry (FAA): 149.596
+Fz Theta Power: 1441.69 uV2/Hz
+Fz Beta Power: 324.02 uV2/Hz
+Fz Alpha Power: 558.49 uV2/Hz
+F3 Theta Power: 1159.97 uV2/Hz
+F4 Theta Power: 1221.44 uV2/Hz"
+v115,Control,0,"Patient ID: v115
+Frontal Theta/Beta Ratio (TBR): 4.301
+Frontal Alpha Asymmetry (FAA): 170.124
+Fz Theta Power: 2958.50 uV2/Hz
+Fz Beta Power: 578.40 uV2/Hz
+Fz Alpha Power: 780.98 uV2/Hz
+F3 Theta Power: 2862.02 uV2/Hz
+F4 Theta Power: 2886.98 uV2/Hz"
+v116,Control,0,"Patient ID: v116
+Frontal Theta/Beta Ratio (TBR): 3.265
+Frontal Alpha Asymmetry (FAA): -153.481
+Fz Theta Power: 3129.56 uV2/Hz
+Fz Beta Power: 729.62 uV2/Hz
+Fz Alpha Power: 1139.79 uV2/Hz
+F3 Theta Power: 1787.08 uV2/Hz
+F4 Theta Power: 1407.14 uV2/Hz"
+v41p,Control,0,"Patient ID: v41p
+Frontal Theta/Beta Ratio (TBR): 4.639
+Frontal Alpha Asymmetry (FAA): -1347.837
+Fz Theta Power: 4886.07 uV2/Hz
+Fz Beta Power: 1237.95 uV2/Hz
+Fz Alpha Power: 2574.32 uV2/Hz
+F3 Theta Power: 3405.00 uV2/Hz
+F4 Theta Power: 4357.53 uV2/Hz"
+v42p,Control,0,"Patient ID: v42p
+Frontal Theta/Beta Ratio (TBR): 6.410
+Frontal Alpha Asymmetry (FAA): -545.506
+Fz Theta Power: 10319.06 uV2/Hz
+Fz Beta Power: 3026.01 uV2/Hz
+Fz Alpha Power: 5605.68 uV2/Hz
+F3 Theta Power: 12636.39 uV2/Hz
+F4 Theta Power: 19271.87 uV2/Hz"
+v43p,Control,0,"Patient ID: v43p
+Frontal Theta/Beta Ratio (TBR): 4.744
+Frontal Alpha Asymmetry (FAA): 510.411
+Fz Theta Power: 6946.23 uV2/Hz
+Fz Beta Power: 983.31 uV2/Hz
+Fz Alpha Power: 1546.67 uV2/Hz
+F3 Theta Power: 4912.67 uV2/Hz
+F4 Theta Power: 8152.01 uV2/Hz"
+v44p,Control,0,"Patient ID: v44p
+Frontal Theta/Beta Ratio (TBR): 1.404
+Frontal Alpha Asymmetry (FAA): -1164.493
+Fz Theta Power: 4175.54 uV2/Hz
+Fz Beta Power: 2567.24 uV2/Hz
+Fz Alpha Power: 3851.29 uV2/Hz
+F3 Theta Power: 3836.99 uV2/Hz
+F4 Theta Power: 2974.85 uV2/Hz"
+v45p,Control,0,"Patient ID: v45p
+Frontal Theta/Beta Ratio (TBR): 2.771
+Frontal Alpha Asymmetry (FAA): 284.596
+Fz Theta Power: 2937.27 uV2/Hz
+Fz Beta Power: 1155.16 uV2/Hz
+Fz Alpha Power: 1359.67 uV2/Hz
+F3 Theta Power: 2433.02 uV2/Hz
+F4 Theta Power: 2182.90 uV2/Hz"
+v46p,Control,0,"Patient ID: v46p
+Frontal Theta/Beta Ratio (TBR): 6.417
+Frontal Alpha Asymmetry (FAA): 266.981
+Fz Theta Power: 6761.37 uV2/Hz
+Fz Beta Power: 1006.92 uV2/Hz
+Fz Alpha Power: 1864.30 uV2/Hz
+F3 Theta Power: 6022.12 uV2/Hz
+F4 Theta Power: 6001.80 uV2/Hz"
+v47p,Control,0,"Patient ID: v47p
+Frontal Theta/Beta Ratio (TBR): 2.467
+Frontal Alpha Asymmetry (FAA): 765.060
+Fz Theta Power: 6579.10 uV2/Hz
+Fz Beta Power: 2844.12 uV2/Hz
+Fz Alpha Power: 2326.83 uV2/Hz
+F3 Theta Power: 6240.38 uV2/Hz
+F4 Theta Power: 6963.49 uV2/Hz"
+v48p,Control,0,"Patient ID: v48p
+Frontal Theta/Beta Ratio (TBR): 4.976
+Frontal Alpha Asymmetry (FAA): 182.179
+Fz Theta Power: 5454.77 uV2/Hz
+Fz Beta Power: 1015.90 uV2/Hz
+Fz Alpha Power: 1618.56 uV2/Hz
+F3 Theta Power: 4833.38 uV2/Hz
+F4 Theta Power: 3664.75 uV2/Hz"
+v49p,Control,0,"Patient ID: v49p
+Frontal Theta/Beta Ratio (TBR): 3.812
+Frontal Alpha Asymmetry (FAA): -598.586
+Fz Theta Power: 8547.37 uV2/Hz
+Fz Beta Power: 1827.65 uV2/Hz
+Fz Alpha Power: 2831.17 uV2/Hz
+F3 Theta Power: 7198.58 uV2/Hz
+F4 Theta Power: 6780.27 uV2/Hz"
+v50p,Control,0,"Patient ID: v50p
+Frontal Theta/Beta Ratio (TBR): 6.268
+Frontal Alpha Asymmetry (FAA): 352.255
+Fz Theta Power: 4340.48 uV2/Hz
+Fz Beta Power: 1214.13 uV2/Hz
+Fz Alpha Power: 1390.65 uV2/Hz
+F3 Theta Power: 4258.69 uV2/Hz
+F4 Theta Power: 4421.25 uV2/Hz"
+v51p,Control,0,"Patient ID: v51p
+Frontal Theta/Beta Ratio (TBR): 1.377
+Frontal Alpha Asymmetry (FAA): 147.246
+Fz Theta Power: 2902.69 uV2/Hz
+Fz Beta Power: 1815.80 uV2/Hz
+Fz Alpha Power: 1558.27 uV2/Hz
+F3 Theta Power: 2275.12 uV2/Hz
+F4 Theta Power: 2035.38 uV2/Hz"
+v52p,Control,0,"Patient ID: v52p
+Frontal Theta/Beta Ratio (TBR): 3.584
+Frontal Alpha Asymmetry (FAA): 1225.330
+Fz Theta Power: 4779.37 uV2/Hz
+Fz Beta Power: 1273.70 uV2/Hz
+Fz Alpha Power: 4974.17 uV2/Hz
+F3 Theta Power: 3668.08 uV2/Hz
+F4 Theta Power: 4293.43 uV2/Hz"
+v53p,Control,0,"Patient ID: v53p
+Frontal Theta/Beta Ratio (TBR): 1.425
+Frontal Alpha Asymmetry (FAA): 2959.835
+Fz Theta Power: 24184.45 uV2/Hz
+Fz Beta Power: 12547.21 uV2/Hz
+Fz Alpha Power: 12414.88 uV2/Hz
+F3 Theta Power: 25700.70 uV2/Hz
+F4 Theta Power: 25058.60 uV2/Hz"
+v54p,Control,0,"Patient ID: v54p
+Frontal Theta/Beta Ratio (TBR): 3.923
+Frontal Alpha Asymmetry (FAA): 3859.182
+Fz Theta Power: 6912.80 uV2/Hz
+Fz Beta Power: 1484.35 uV2/Hz
+Fz Alpha Power: 1696.37 uV2/Hz
+F3 Theta Power: 5803.50 uV2/Hz
+F4 Theta Power: 25292.57 uV2/Hz"
+v55p,Control,0,"Patient ID: v55p
+Frontal Theta/Beta Ratio (TBR): 1.823
+Frontal Alpha Asymmetry (FAA): 814.230
+Fz Theta Power: 5731.60 uV2/Hz
+Fz Beta Power: 3187.79 uV2/Hz
+Fz Alpha Power: 4158.92 uV2/Hz
+F3 Theta Power: 4402.48 uV2/Hz
+F4 Theta Power: 6048.76 uV2/Hz"
+v56p,Control,0,"Patient ID: v56p
+Frontal Theta/Beta Ratio (TBR): 5.613
+Frontal Alpha Asymmetry (FAA): 1009.436
+Fz Theta Power: 7669.50 uV2/Hz
+Fz Beta Power: 1273.10 uV2/Hz
+Fz Alpha Power: 2040.08 uV2/Hz
+F3 Theta Power: 7063.89 uV2/Hz
+F4 Theta Power: 8660.48 uV2/Hz"
+v57p,Control,0,"Patient ID: v57p
+Frontal Theta/Beta Ratio (TBR): 2.755
+Frontal Alpha Asymmetry (FAA): -29.270
+Fz Theta Power: 4166.37 uV2/Hz
+Fz Beta Power: 1534.72 uV2/Hz
+Fz Alpha Power: 2569.02 uV2/Hz
+F3 Theta Power: 2997.38 uV2/Hz
+F4 Theta Power: 3276.45 uV2/Hz"
+v58p,Control,0,"Patient ID: v58p
+Frontal Theta/Beta Ratio (TBR): 0.934
+Frontal Alpha Asymmetry (FAA): 463.658
+Fz Theta Power: 2557.25 uV2/Hz
+Fz Beta Power: 2611.93 uV2/Hz
+Fz Alpha Power: 3182.68 uV2/Hz
+F3 Theta Power: 2566.97 uV2/Hz
+F4 Theta Power: 2791.83 uV2/Hz"
+v59p,Control,0,"Patient ID: v59p
+Frontal Theta/Beta Ratio (TBR): 2.682
+Frontal Alpha Asymmetry (FAA): -128.728
+Fz Theta Power: 6407.33 uV2/Hz
+Fz Beta Power: 2521.66 uV2/Hz
+Fz Alpha Power: 1702.96 uV2/Hz
+F3 Theta Power: 5109.84 uV2/Hz
+F4 Theta Power: 5381.92 uV2/Hz"
+v60p,Control,0,"Patient ID: v60p
+Frontal Theta/Beta Ratio (TBR): 3.852
+Frontal Alpha Asymmetry (FAA): -4206.753
+Fz Theta Power: 28150.16 uV2/Hz
+Fz Beta Power: 6144.81 uV2/Hz
+Fz Alpha Power: 8078.42 uV2/Hz
+F3 Theta Power: 26857.07 uV2/Hz
+F4 Theta Power: 11356.41 uV2/Hz"
+v117,Control,0,"Patient ID: v117
+Frontal Theta/Beta Ratio (TBR): 4.406
+Frontal Alpha Asymmetry (FAA): 284.184
+Fz Theta Power: 3880.16 uV2/Hz
+Fz Beta Power: 878.07 uV2/Hz
+Fz Alpha Power: 1057.53 uV2/Hz
+F3 Theta Power: 2513.13 uV2/Hz
+F4 Theta Power: 3694.18 uV2/Hz"
+v118,Control,0,"Patient ID: v118
+Frontal Theta/Beta Ratio (TBR): 4.656
+Frontal Alpha Asymmetry (FAA): -10.186
+Fz Theta Power: 7387.62 uV2/Hz
+Fz Beta Power: 990.65 uV2/Hz
+Fz Alpha Power: 1584.77 uV2/Hz
+F3 Theta Power: 6274.16 uV2/Hz
+F4 Theta Power: 2541.75 uV2/Hz"
+v120,Control,0,"Patient ID: v120
+Frontal Theta/Beta Ratio (TBR): 11.954
+Frontal Alpha Asymmetry (FAA): -7078.121
+Fz Theta Power: 14268.88 uV2/Hz
+Fz Beta Power: 1455.23 uV2/Hz
+Fz Alpha Power: 4183.82 uV2/Hz
+F3 Theta Power: 39827.08 uV2/Hz
+F4 Theta Power: 4929.40 uV2/Hz"
+v121,Control,0,"Patient ID: v121
+Frontal Theta/Beta Ratio (TBR): 1.370
+Frontal Alpha Asymmetry (FAA): -388.376
+Fz Theta Power: 3448.73 uV2/Hz
+Fz Beta Power: 2180.06 uV2/Hz
+Fz Alpha Power: 1679.17 uV2/Hz
+F3 Theta Power: 1881.25 uV2/Hz
+F4 Theta Power: 2150.74 uV2/Hz"
+v123,Control,0,"Patient ID: v123
+Frontal Theta/Beta Ratio (TBR): 3.295
+Frontal Alpha Asymmetry (FAA): 243.905
+Fz Theta Power: 4782.86 uV2/Hz
+Fz Beta Power: 770.79 uV2/Hz
+Fz Alpha Power: 1541.23 uV2/Hz
+F3 Theta Power: 1108.70 uV2/Hz
+F4 Theta Power: 1680.65 uV2/Hz"
+v125,Control,0,"Patient ID: v125
+Frontal Theta/Beta Ratio (TBR): 1.265
+Frontal Alpha Asymmetry (FAA): 193.292
+Fz Theta Power: 2125.89 uV2/Hz
+Fz Beta Power: 1147.23 uV2/Hz
+Fz Alpha Power: 1059.62 uV2/Hz
+F3 Theta Power: 1223.04 uV2/Hz
+F4 Theta Power: 1291.01 uV2/Hz"
+v127,Control,0,"Patient ID: v127
+Frontal Theta/Beta Ratio (TBR): 0.988
+Frontal Alpha Asymmetry (FAA): 343.170
+Fz Theta Power: 4259.12 uV2/Hz
+Fz Beta Power: 1531.79 uV2/Hz
+Fz Alpha Power: 1151.76 uV2/Hz
+F3 Theta Power: 2406.98 uV2/Hz
+F4 Theta Power: 2116.63 uV2/Hz"
+v129,Control,0,"Patient ID: v129
+Frontal Theta/Beta Ratio (TBR): 3.966
+Frontal Alpha Asymmetry (FAA): 95.973
+Fz Theta Power: 3023.42 uV2/Hz
+Fz Beta Power: 432.51 uV2/Hz
+Fz Alpha Power: 845.58 uV2/Hz
+F3 Theta Power: 2630.60 uV2/Hz
+F4 Theta Power: 2375.67 uV2/Hz"
+v131,Control,0,"Patient ID: v131
+Frontal Theta/Beta Ratio (TBR): 1.467
+Frontal Alpha Asymmetry (FAA): -116.236
+Fz Theta Power: 5265.64 uV2/Hz
+Fz Beta Power: 1463.61 uV2/Hz
+Fz Alpha Power: 1282.56 uV2/Hz
+F3 Theta Power: 4082.87 uV2/Hz
+F4 Theta Power: 1845.70 uV2/Hz"
+v133,Control,0,"Patient ID: v133
+Frontal Theta/Beta Ratio (TBR): 2.956
+Frontal Alpha Asymmetry (FAA): -116.396
+Fz Theta Power: 4750.27 uV2/Hz
+Fz Beta Power: 933.26 uV2/Hz
+Fz Alpha Power: 1062.25 uV2/Hz
+F3 Theta Power: 5946.76 uV2/Hz
+F4 Theta Power: 2538.46 uV2/Hz"
+v134,Control,0,"Patient ID: v134
+Frontal Theta/Beta Ratio (TBR): 0.807
+Frontal Alpha Asymmetry (FAA): 31.199
+Fz Theta Power: 4525.87 uV2/Hz
+Fz Beta Power: 1640.65 uV2/Hz
+Fz Alpha Power: 1319.51 uV2/Hz
+F3 Theta Power: 3040.18 uV2/Hz
+F4 Theta Power: 3009.41 uV2/Hz"
+v138,Control,0,"Patient ID: v138
+Frontal Theta/Beta Ratio (TBR): 4.969
+Frontal Alpha Asymmetry (FAA): 106.810
+Fz Theta Power: 3799.97 uV2/Hz
+Fz Beta Power: 697.56 uV2/Hz
+Fz Alpha Power: 980.25 uV2/Hz
+F3 Theta Power: 3517.76 uV2/Hz
+F4 Theta Power: 4199.86 uV2/Hz"
+v140,Control,0,"Patient ID: v140
+Frontal Theta/Beta Ratio (TBR): 3.325
+Frontal Alpha Asymmetry (FAA): 78.150
+Fz Theta Power: 8294.74 uV2/Hz
+Fz Beta Power: 1631.54 uV2/Hz
+Fz Alpha Power: 1813.60 uV2/Hz
+F3 Theta Power: 8411.59 uV2/Hz
+F4 Theta Power: 3209.83 uV2/Hz"
+v143,Control,0,"Patient ID: v143
+Frontal Theta/Beta Ratio (TBR): 4.017
+Frontal Alpha Asymmetry (FAA): -312.807
+Fz Theta Power: 6942.37 uV2/Hz
+Fz Beta Power: 1665.94 uV2/Hz
+Fz Alpha Power: 1900.67 uV2/Hz
+F3 Theta Power: 6974.94 uV2/Hz
+F4 Theta Power: 5068.35 uV2/Hz"
+v147,Control,0,"Patient ID: v147
+Frontal Theta/Beta Ratio (TBR): 4.586
+Frontal Alpha Asymmetry (FAA): -484.324
+Fz Theta Power: 7733.37 uV2/Hz
+Fz Beta Power: 1485.28 uV2/Hz
+Fz Alpha Power: 1935.66 uV2/Hz
+F3 Theta Power: 6890.84 uV2/Hz
+F4 Theta Power: 5599.07 uV2/Hz"
+v149,Control,0,"Patient ID: v149
+Frontal Theta/Beta Ratio (TBR): 6.495
+Frontal Alpha Asymmetry (FAA): -3422.592
+Fz Theta Power: 19711.05 uV2/Hz
+Fz Beta Power: 2598.84 uV2/Hz
+Fz Alpha Power: 4709.77 uV2/Hz
+F3 Theta Power: 17443.17 uV2/Hz
+F4 Theta Power: 3110.03 uV2/Hz"
+v151,Control,0,"Patient ID: v151
+Frontal Theta/Beta Ratio (TBR): 3.527
+Frontal Alpha Asymmetry (FAA): 475.391
+Fz Theta Power: 3969.54 uV2/Hz
+Fz Beta Power: 655.38 uV2/Hz
+Fz Alpha Power: 1301.48 uV2/Hz
+F3 Theta Power: 2345.33 uV2/Hz
+F4 Theta Power: 3194.02 uV2/Hz"
+v297,Control,0,"Patient ID: v297
+Frontal Theta/Beta Ratio (TBR): 2.252
+Frontal Alpha Asymmetry (FAA): 96.818
+Fz Theta Power: 4202.41 uV2/Hz
+Fz Beta Power: 1455.78 uV2/Hz
+Fz Alpha Power: 1845.66 uV2/Hz
+F3 Theta Power: 4185.67 uV2/Hz
+F4 Theta Power: 3561.55 uV2/Hz"
+v298,Control,0,"Patient ID: v298
+Frontal Theta/Beta Ratio (TBR): 3.345
+Frontal Alpha Asymmetry (FAA): 225.516
+Fz Theta Power: 4084.35 uV2/Hz
+Fz Beta Power: 847.49 uV2/Hz
+Fz Alpha Power: 1437.55 uV2/Hz
+F3 Theta Power: 3218.25 uV2/Hz
+F4 Theta Power: 3348.34 uV2/Hz"
+v299,Control,0,"Patient ID: v299
+Frontal Theta/Beta Ratio (TBR): 3.193
+Frontal Alpha Asymmetry (FAA): 770.129
+Fz Theta Power: 8423.07 uV2/Hz
+Fz Beta Power: 2201.89 uV2/Hz
+Fz Alpha Power: 2455.05 uV2/Hz
+F3 Theta Power: 7369.28 uV2/Hz
+F4 Theta Power: 10662.36 uV2/Hz"
+v300,Control,0,"Patient ID: v300
+Frontal Theta/Beta Ratio (TBR): 6.332
+Frontal Alpha Asymmetry (FAA): -2081.020
+Fz Theta Power: 17333.20 uV2/Hz
+Fz Beta Power: 2545.64 uV2/Hz
+Fz Alpha Power: 3877.44 uV2/Hz
+F3 Theta Power: 16356.69 uV2/Hz
+F4 Theta Power: 5707.01 uV2/Hz"
+v302,Control,0,"Patient ID: v302
+Frontal Theta/Beta Ratio (TBR): 2.757
+Frontal Alpha Asymmetry (FAA): 1375.935
+Fz Theta Power: 4794.45 uV2/Hz
+Fz Beta Power: 2408.76 uV2/Hz
+Fz Alpha Power: 2330.09 uV2/Hz
+F3 Theta Power: 4246.44 uV2/Hz
+F4 Theta Power: 11612.13 uV2/Hz"
+v303,Control,0,"Patient ID: v303
+Frontal Theta/Beta Ratio (TBR): 2.497
+Frontal Alpha Asymmetry (FAA): -103.642
+Fz Theta Power: 3213.44 uV2/Hz
+Fz Beta Power: 605.52 uV2/Hz
+Fz Alpha Power: 1319.65 uV2/Hz
+F3 Theta Power: 3525.48 uV2/Hz
+F4 Theta Power: 2993.75 uV2/Hz"
+v304,Control,0,"Patient ID: v304
+Frontal Theta/Beta Ratio (TBR): 2.821
+Frontal Alpha Asymmetry (FAA): 398.540
+Fz Theta Power: 3320.78 uV2/Hz
+Fz Beta Power: 665.06 uV2/Hz
+Fz Alpha Power: 1040.94 uV2/Hz
+F3 Theta Power: 2824.65 uV2/Hz
+F4 Theta Power: 3698.52 uV2/Hz"
+v305,Control,0,"Patient ID: v305
+Frontal Theta/Beta Ratio (TBR): 4.315
+Frontal Alpha Asymmetry (FAA): -13.618
+Fz Theta Power: 7261.23 uV2/Hz
+Fz Beta Power: 1635.20 uV2/Hz
+Fz Alpha Power: 2299.48 uV2/Hz
+F3 Theta Power: 6159.38 uV2/Hz
+F4 Theta Power: 5762.75 uV2/Hz"
+v306,Control,0,"Patient ID: v306
+Frontal Theta/Beta Ratio (TBR): 2.151
+Frontal Alpha Asymmetry (FAA): -345.755
+Fz Theta Power: 4877.44 uV2/Hz
+Fz Beta Power: 1711.48 uV2/Hz
+Fz Alpha Power: 3246.84 uV2/Hz
+F3 Theta Power: 3666.74 uV2/Hz
+F4 Theta Power: 2796.85 uV2/Hz"
+v307,Control,0,"Patient ID: v307
+Frontal Theta/Beta Ratio (TBR): 2.183
+Frontal Alpha Asymmetry (FAA): 2033.000
+Fz Theta Power: 4406.51 uV2/Hz
+Fz Beta Power: 1652.40 uV2/Hz
+Fz Alpha Power: 3233.89 uV2/Hz
+F3 Theta Power: 5276.58 uV2/Hz
+F4 Theta Power: 6458.71 uV2/Hz"
+v308,Control,0,"Patient ID: v308
+Frontal Theta/Beta Ratio (TBR): 5.033
+Frontal Alpha Asymmetry (FAA): -376.393
+Fz Theta Power: 11698.93 uV2/Hz
+Fz Beta Power: 1991.19 uV2/Hz
+Fz Alpha Power: 3757.57 uV2/Hz
+F3 Theta Power: 8023.89 uV2/Hz
+F4 Theta Power: 5749.67 uV2/Hz"
+v309,Control,0,"Patient ID: v309
+Frontal Theta/Beta Ratio (TBR): 2.431
+Frontal Alpha Asymmetry (FAA): 61.906
+Fz Theta Power: 5386.99 uV2/Hz
+Fz Beta Power: 1622.74 uV2/Hz
+Fz Alpha Power: 2004.17 uV2/Hz
+F3 Theta Power: 5023.89 uV2/Hz
+F4 Theta Power: 6940.57 uV2/Hz"
+v310,Control,0,"Patient ID: v310
+Frontal Theta/Beta Ratio (TBR): 2.330
+Frontal Alpha Asymmetry (FAA): -88.101
+Fz Theta Power: 2949.10 uV2/Hz
+Fz Beta Power: 815.07 uV2/Hz
+Fz Alpha Power: 983.32 uV2/Hz
+F3 Theta Power: 2351.83 uV2/Hz
+F4 Theta Power: 1901.28 uV2/Hz"
