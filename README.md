@@ -70,6 +70,16 @@ Stage-R-D/
 
 │   └── hbn_eeg_to_text.py         # HBN serialization
 
+|
+
+├── nasrabadi_raw/                  
+
+│   ├── adhdata.csv             # Raw EEG data — download from IEEE DataPort
+
+│   ├── extract.py              # Early feature extraction script
+
+│   └── test_windows.py         # Window size testing script
+
 │
 
 ├── notebooks/
