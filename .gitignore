@@ -2,3 +2,5 @@ kaggle.json
 data/adhdata.csv
 data/eeg-dataset-for-adhd.zip
 data/
+nasrabadi_raw/adhdata.csv
+eeg_data/
