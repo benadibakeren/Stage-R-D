@@ -1,6 +1,9 @@
-kaggle.json
-data/adhdata.csv
-data/eeg-dataset-for-adhd.zip
-data/
+.venv/
+__pycache__/
+*.pyc
 nasrabadi_raw/adhdata.csv
 eeg_data/
+data/patient_text_w*.csv
+data/hbn_*.csv
+data/patient_features.csv
+data/patient_tbr.csv

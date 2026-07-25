@@ -41,7 +41,7 @@ def extract_windows(df, window_sec=30, sfreq=128):
             tbr = np.mean(theta_p) / np.mean(beta_p)
             faa = alpha_p[frontal.index('F4')] - alpha_p[frontal.index('F3')]
 
-            text = f"""Patient ID: {patient_id}_seg{w}
+            text = f"""Patient ID: PATIENT_ANONYMIZED
 Frontal Theta/Beta Ratio (TBR): {tbr:.3f}
 Frontal Alpha Asymmetry (FAA): {faa:.3f}
 Fz Theta Power: {theta_p[0]:.4f} uV2/Hz
@@ -66,3 +66,13 @@ if __name__ == "__main__":
         output = f'data/patient_text_w{window_sec}s.csv'
         df_window.to_csv(output, index=False)
         print(f"Fenêtre {window_sec}s : {len(df_window)} segments → {output}")
+
+
+# Générer aussi patient_text.csv (fenêtre 30s, format standard)
+df_30s = extract_windows(df_raw, window_sec=30)
+# Renommer les segments au format attendu
+df_30s["ID"] = df_30s["ID"].str.replace("_seg", "_segment_")
+# Réordonner les colonnes
+df_30s = df_30s[["ID", "Class", "label", "text"]]
+df_30s.to_csv("data/patient_text.csv", index=False)
+print(f"patient_text.csv généré : {len(df_30s)} segments")
