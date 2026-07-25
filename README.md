@@ -138,7 +138,8 @@ python models/train_biomedbert_final.py
 - GroupKFold 5-fold cross-validation
 - AdamW lr=3e-5, batch=16, 10 epochs, linear warmup
 - Best model saved as `best_biomedbert.pt`
-- **Results:** Mean accuracy 99.68% ± 0.63%
+- **Results:** Patient-level accuracy 91.80% on a fixed 50/50 split 
+  (segment-level GroupKFold: 99.68% ± 0.63%)
 
 ### Step 3 — BioGPT Clinical Report Generation
 ```bash
@@ -150,22 +151,24 @@ Generates a natural language clinical report from EEG features.
 ```bash
 python models/Federated_train.py
 ```
-- 4 simulated hospital nodes, FedAvg aggregation
-- GroupKFold within each node (no data leakage)
+- Fixed 50/50 patient-level train/test split
+- Patient-level evaluation via majority voting
 - 5 local epochs per round, 5 communication rounds
-- **Results:** Convergence from 53.61% to 100% in 4 rounds
+- **Results:** Converges from 72.13% (Round 1) to 90.16% (Round 4)
+  — 1.64% performance loss vs centralized baseline of 91.80%
 
 ### Step 5 — Window Size Comparison
 Run `train_biomedbert_final.py` with different window CSVs:
-10s → 94.86% ± 4.75%
 
-20s → 93.36% ± 5.28%
+| Window | Segments | Segment-level Accuracy |
+|---|---|---|
+| 10s | 1630 | 94.86% ± 4.75% |
+| 20s | 783 | 93.36% ± 5.28% |
+| **30s** | **508** | **94.12% ± 5.03%** ← optimal |
+| 60s | 225 | 74.22% ± 13.96% |
+| 120s | 82 | 63.46% ± 12.92% |
 
-30s → 94.12% ± 5.03%  ← optimal
-
-60s → 74.22% ± 13.96%
-
-120s → 63.46% ± 12.92%
+> Note: accuracies are segment-level metrics used for window size comparison only.
 
 ### Step 6 — HBN-EEG Cross-Dataset Experiment
 ```bash
@@ -174,6 +177,25 @@ python hbn_dataset/extract_feature_hbn.py
 ```
 Cross-dataset accuracy: **37.5%** — confirms domain shift and 
 motivates the Federated Learning approach.
+
+> **Note:** This is a manual cross-dataset transfer test, not a 
+> standalone reproducible script.
+
+### Step 7 — Multi-Site Federated Learning on HBN-EEG
+```bash
+python hbn_dataset/download_hbn_multisite.py
+python models/FL_multisite_HBN.py
+```
+- 3 genuine HBN-EEG sites (ds005515, ds005511, ds005509)
+- 15 ADHD + 15 Control per site
+- Same FL protocol as Nasrabadi
+
+| Configuration | Accuracy |
+|---|---|
+| Single-site (ds005515 only) | 38.89% |
+| Centralized (3 sites) | 61.11% |
+| Federated Learning (best round) | 61.11% |
+| Gain FL vs single-site | +22.22% |
 
 ---
 

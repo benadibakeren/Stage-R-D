@@ -11,3 +11,7 @@ huggingface_hub>=0.15.0
 safetensors>=0.3.0
 tokenizers>=0.13.0
 tqdm>=4.65.0
+sacremoses
+awscli
+mne
+openneuro-py
