@@ -1,18 +1,3 @@
-"""
-Federated Learning Simulation for ADHD EEG Classification
-==========================================================
-Implements FedAvg across simulated hospital nodes using BiomedBERT.
-
-Key design decisions:
-- Fixed patient-level train/test split (80/20) established before training
-- Centralized baseline trained from scratch with identical hyperparameters
-- Patient-level evaluation via majority voting across segments
-- Node partitioning by patient identity (no cross-node data leakage)
-
-Author: Keren Benadiba
-Institution: UMONS, Service SEMi
-"""
-
 import torch
 import numpy as np
 import pandas as pd
@@ -28,14 +13,14 @@ from torch.optim import AdamW
 from sklearn.metrics import accuracy_score
 
 # ── Configuration ─────────────────────────────────────────
-MODEL_NAME  = "microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext"
-DATA_PATH   = "data/patient_text.csv"
-NUM_NODES   = 4
-NUM_ROUNDS  = 5
-LOCAL_EPOCHS = 5
+MODEL_NAME    = "microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext"
+DATA_PATH     = "data/patient_text.csv"
+NUM_NODES     = 4
+NUM_ROUNDS    = 5
+LOCAL_EPOCHS  = 5
 LEARNING_RATE = 3e-5
-BATCH_SIZE  = 8
-SEED        = 42
+BATCH_SIZE    = 8
+SEED          = 42
 
 # ── Setup ─────────────────────────────────────────────────
 np.random.seed(SEED)
@@ -45,18 +30,17 @@ device    = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Device: {device}")
 
 # ── Load data ─────────────────────────────────────────────
-df = pd.read_csv("data/patient_text.csv")
+df = pd.read_csv(DATA_PATH)
 df["patient_id"] = df["ID"].str.split("_").str[0]
 print(f"Dataset: {len(df)} segments, {df['patient_id'].nunique()} patients")
 
 # ── Fixed patient-level train/test split ──────────────────
-# Split is established ONCE before any training
-# 80% patients for training, 20% for testing
-# Test set is NEVER seen during training
+# Split is established ONCE before any training.
+# Test set is NEVER seen during training.
 
 all_patients = df["patient_id"].unique()
 np.random.shuffle(all_patients)
-split_idx    = int(0.8 * len(all_patients))
+split_idx      = int(0.8 * len(all_patients))
 train_patients = all_patients[:split_idx]
 test_patients  = all_patients[split_idx:]
 
@@ -67,8 +51,8 @@ print(f"\nTrain: {train_df['patient_id'].nunique()} patients, {len(train_df)} se
 print(f"Test : {test_df['patient_id'].nunique()} patients, {len(test_df)} segments")
 
 # ── Node partitioning ─────────────────────────────────────
-# Training patients are divided equally across nodes
-# All segments of a patient stay within the same node
+# Training patients are divided equally across nodes.
+# All segments of a patient stay within the same node.
 
 train_patients_arr = np.array(train_patients)
 np.random.shuffle(train_patients_arr)
@@ -107,14 +91,8 @@ class EEGDataset(torch.utils.data.Dataset):
 def evaluate_patient_level(model, eval_df):
     """
     Evaluates model at patient level using majority voting.
-
     Each patient's segments vote independently.
     The majority class is the final prediction for that patient.
-    This reflects the clinically relevant prediction unit.
-
-    Returns:
-        accuracy (float): patient-level accuracy
-        n_patients (int): number of evaluated patients
     """
     model.eval()
     texts  = eval_df["text"].tolist()
@@ -134,7 +112,6 @@ def evaluate_patient_level(model, eval_df):
                 torch.argmax(outputs.logits, dim=1).cpu().numpy()
             )
 
-    # Aggregate predictions by patient via majority vote
     patient_preds  = {}
     patient_labels = {}
 
@@ -191,7 +168,7 @@ def train_local(model, train_loader, epochs=LOCAL_EPOCHS, lr=LEARNING_RATE):
 def fed_avg(global_model, local_models, node_sizes):
     """
     Aggregates local model weights using FedAvg.
-    Each node's contribution is weighted by its number of training patients.
+    Each node's contribution is weighted by its number of training segments.
     Only model weights are shared — never raw patient data.
 
     Reference: McMahan et al. (2017), Communication-Efficient Learning
@@ -210,11 +187,13 @@ def fed_avg(global_model, local_models, node_sizes):
     return global_model
 
 # ── Centralized baseline ──────────────────────────────────
-# Trained from scratch with identical hyperparameters to FL nodes
-# Evaluated on the same fixed test set as the federated model
+# Trained from scratch with same total training budget as FL:
+# LOCAL_EPOCHS * NUM_ROUNDS = 5 * 5 = 25 epochs total
+# Evaluated on the same fixed test set as the federated model.
 
 print("\n" + "="*50)
 print("CENTRALIZED BASELINE")
+print(f"(trained for {LOCAL_EPOCHS * NUM_ROUNDS} epochs — same budget as FL)")
 print("="*50)
 
 centralized_model = AutoModelForSequenceClassification.from_pretrained(
@@ -226,7 +205,11 @@ train_loader_central = DataLoader(
     batch_size=BATCH_SIZE, shuffle=True
 )
 
-centralized_model = train_local(centralized_model, train_loader_central)
+# Same total training budget as FL (LOCAL_EPOCHS * NUM_ROUNDS)
+centralized_model = train_local(
+    centralized_model, train_loader_central,
+    epochs=LOCAL_EPOCHS * NUM_ROUNDS
+)
 central_acc, n_patients = evaluate_patient_level(centralized_model, test_df)
 print(f"\nCentralized baseline: {central_acc*100:.2f}% ({n_patients} patients)")
 
@@ -235,7 +218,6 @@ print("\n" + "="*50)
 print(f"FEDERATED LEARNING - {NUM_NODES} nodes, {NUM_ROUNDS} rounds")
 print("="*50)
 
-# Global model starts from scratch (same as centralized baseline)
 global_model = AutoModelForSequenceClassification.from_pretrained(
     MODEL_NAME, num_labels=2
 ).to(device)
@@ -250,7 +232,6 @@ for round_num in range(1, NUM_ROUNDS + 1):
     local_models = []
     node_sizes   = []
 
-    # Each node trains locally on its own patients
     for node_id in range(NUM_NODES):
         node_df = train_df[
             train_df["patient_id"].isin(node_groups[node_id])
@@ -265,14 +246,16 @@ for round_num in range(1, NUM_ROUNDS + 1):
         local_model = train_local(local_model, train_loader)
 
         local_models.append(local_model)
-        node_sizes.append(node_df["patient_id"].nunique())
+        # Weighted by number of segments (standard FedAvg)
+        node_sizes.append(len(node_df))
 
-    # FedAvg aggregation
     print(f"\n  FedAvg aggregation...")
     global_model = fed_avg(global_model, local_models, node_sizes)
 
-    # Patient-level evaluation on fixed test set
     round_acc, n_p = evaluate_patient_level(global_model, test_df)
+
+    # Track best round — reflects model selected for deployment
+    # Note: best_acc is the maximum across rounds, not the final round
     if round_acc > best_acc:
         best_acc = round_acc
 
@@ -286,3 +269,5 @@ print(f"{'='*50}")
 print(f"Centralized baseline : {central_acc*100:.2f}%")
 print(f"Best federated acc   : {best_acc*100:.2f}%")
 print(f"Performance loss     : {(central_acc - best_acc)*100:.2f}%")
+print(f"\nNote: best_acc reports the best round across {NUM_ROUNDS} rounds,")
+print(f"reflecting the model that would be selected for deployment.")
