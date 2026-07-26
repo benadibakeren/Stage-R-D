@@ -1,6 +1,8 @@
 import pandas as pd
 import numpy as np
 import torch
+import sys
+
 from torch.utils.data import Dataset, DataLoader
 from transformers import (
     AutoTokenizer,
@@ -17,7 +19,9 @@ torch.manual_seed(42)
 np.random.seed(42)
 
 # ── Data ──────────────────────────────────────────────────
-df = pd.read_csv('data/patient_text.csv')
+data_path = sys.argv[1] if len(sys.argv) > 1 else 'data/patient_text.csv'
+df = pd.read_csv(data_path)
+print(f"Loading data from: {data_path}")
 df["patient_id"] = df["ID"].str.rsplit("_", n=2).str[0]
 
 print(f"Dataset: {len(df)} segments")

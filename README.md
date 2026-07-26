@@ -158,8 +158,21 @@ python models/Federated_train.py
   — 1.64% performance loss vs centralized baseline of 91.80%
 
 ### Step 5 — Window Size Comparison
-Run `train_biomedbert_final.py` with different window CSVs:
+First generate the window CSVs:
+\`\`\`bash
+python preprocessing/eeg_to_text.py
+\`\`\`
 
+Then run BiomedBERT with each window file:
+\`\`\`bash
+python models/train_biomedbert_final.py data/patient_text_w10s.csv
+python models/train_biomedbert_final.py data/patient_text_w20s.csv
+python models/train_biomedbert_final.py data/patient_text_w30s.csv
+python models/train_biomedbert_final.py data/patient_text_w60s.csv
+python models/train_biomedbert_final.py data/patient_text_w120s.csv
+\`\`\`
+
+Note: accuracies are segment-level metrics used for window comparison only.
 | Window | Segments | Segment-level Accuracy |
 |---|---|---|
 | 10s | 1630 | 94.86% ± 4.75% |
@@ -168,7 +181,11 @@ Run `train_biomedbert_final.py` with different window CSVs:
 | 60s | 225 | 74.22% ± 13.96% |
 | 120s | 82 | 63.46% ± 12.92% |
 
-> Note: accuracies are segment-level metrics used for window size comparison only.
+
+> **Note:** `patient_text.csv` (951 segments) uses a different 
+> segmentation approach than `patient_text_w30s.csv` (508 segments). 
+> The former is used for BiomedBERT classification and FL. 
+> The latter is used only for window size comparison.
 
 ### Step 6 — HBN-EEG Cross-Dataset Experiment
 ```bash
