@@ -188,15 +188,17 @@ Note: accuracies are segment-level metrics used for window comparison only.
 > The latter is used only for window size comparison.
 
 ### Step 6 — HBN-EEG Cross-Dataset Experiment
-```bash
+\`\`\`bash
 python hbn_dataset/download_hbn_sample.py
 python hbn_dataset/extract_feature_hbn.py
-```
-Cross-dataset accuracy: **37.5%** — confirms domain shift and 
-motivates the Federated Learning approach.
+python hbn_dataset/hbn_eeg_to_text.py
+\`\`\`
 
-> **Note:** This is a manual cross-dataset transfer test, not a 
-> standalone reproducible script.
+> **Note on 37.5%:** This figure was obtained by applying the 
+> Nasrabadi-trained BiomedBERT model directly to HBN-EEG subjects 
+> without fine-tuning — a manual cross-dataset transfer test. 
+> No standalone script produces this figure. 
+> See Step 7 for the full reproducible multi-site FL experiment.
 
 ### Step 7 — Multi-Site Federated Learning on HBN-EEG
 ```bash
