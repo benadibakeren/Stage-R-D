@@ -25,7 +25,9 @@ for _, row in sample.iterrows():
     subprocess.run([
         "aws", "s3", "sync", "--no-sign-request",
         f"s3://openneuro.org/ds005515/{pid}/eeg/",
-        f"eeg_data/{pid}/"
+        f"eeg_data/{pid}/",
+        "--exclude", "*",
+        "--include", "*task-RestingState*"
     ])
 
 print("\nTerminé !")
