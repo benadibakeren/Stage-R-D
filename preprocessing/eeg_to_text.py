@@ -2,22 +2,23 @@ import pandas as pd
 import numpy as np
 from scipy.signal import welch
 
-def extract_windows(df, window_sec=30, sfreq=128):
+def extract_windows(df, window_sec=30, sfreq=128, overlap=0.0):
     """
     Découpe le signal EEG en fenêtres temporelles
     et sérialise chaque fenêtre en texte structuré
     """
     window_samples = window_sec * sfreq
+    step_samples = int(window_samples * (1 - overlap))
     frontal = ['Fz', 'F3', 'F4', 'Fp1', 'Fp2']
     records = []
 
     for patient_id, group in df.groupby('ID'):
         label = group['Class'].iloc[0]
         signal = group[frontal].values
-        n_windows = len(signal) // window_samples
+        n_windows = (len(signal) - window_samples) // step_samples + 1
 
         for w in range(n_windows):
-            start = w * window_samples
+            start = w * step_samples
             end   = start + window_samples
             segment = signal[start:end]
 
@@ -76,3 +77,10 @@ df_30s["ID"] = df_30s["ID"].str.replace("_seg", "_segment_")
 df_30s = df_30s[["ID", "Class", "label", "text"]]
 df_30s.to_csv("data/patient_text.csv", index=False)
 print(f"patient_text.csv généré : {len(df_30s)} segments")
+# Génération avec overlap 50% pour augmentation des données
+print("\nGénération avec overlap 50%...")
+for window_sec in [10, 20, 30]:
+    df_window = extract_windows(df_raw, window_sec=window_sec, overlap=0.5)
+    output = f'data/patient_text_w{window_sec}s_overlap50.csv'
+    df_window.to_csv(output, index=False)
+    print(f"Fenêtre {window_sec}s overlap 50% : {len(df_window)} segments → {output}")
